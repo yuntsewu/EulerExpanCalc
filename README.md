@@ -1,8 +1,8 @@
 # EulerExpanCalc
 
-1) it will have to parse a text file (csv)
-2) the csv will be 2 columns, all of integers (see attached for a sample)
-3) it will go through all the rows of numbers and it will find the Xth prime number that has Y digits in the expansion of Euler's formula - for example, if 5 and 6 are the current line in the csv, it will show the 5th 6 digit prime number in the expansion. It will continue through the csv and display results for all the numbers.  
+$1) it will have to parse a text file (csv)
+$2) the csv will be 2 columns, all of integers (see attached for a sample)
+$3) it will go through all the rows of numbers and it will find the Xth prime number that has Y digits in the expansion of Euler's formula - for example, if 5 and 6 are the current line in the csv, it will show the 5th 6 digit prime number in the expansion. It will continue through the csv and display results for all the numbers.  
 
 ## Installation
 
@@ -29,10 +29,10 @@ The method takes in "path" parameter.
 
 Example:
 
-calc = EulerTask.new
-print 'Enter File name: '
-fname = STDIN.gets.chomp()
-puts calc.calculatesNum(fname)
+$calc = EulerTask.new
+$print 'Enter File name: '
+$fname = STDIN.gets.chomp()
+$puts calc.calculatesNum(fname)
 
 
 
