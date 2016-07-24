@@ -22,10 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are two ways to use this code: 
+    1. You would need to create "EulerTask" object and call "calculatesNum(path)" method.
+    2. "$ git clone" the project and execute "$ bin/console"
+    
 
-You would need to create "EulerTask" object and call "calculatesNum(path)" method.
-The method takes in "path" parameter.
 
 Example:
 
