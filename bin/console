@@ -9,6 +9,10 @@ require "EulerExpanCalc"
 # (If you use this, don't forget to add pry to your Gemfile!)
 # require "pry"
 # Pry.start
+calc = EulerTask.new
+print 'Enter File name: '
+fname = STDIN.gets.chomp()  # or fname = gets.chomp()
+puts calc.calculatesNum(fname)
 
 require "irb"
 IRB.start

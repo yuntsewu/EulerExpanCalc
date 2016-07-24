@@ -6,12 +6,12 @@ require 'EulerExpanCalc/version'
 Gem::Specification.new do |spec|
   spec.name          = "EulerExpanCalc"
   spec.version       = EulerExpanCalc::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Yun Tse Wu"]
+  spec.email         = ["windsor106@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Calculates numbers for Euler function}
+  spec.description   = %q{Calculates numbers for Euler function}
+  spec.homepage      = "https://github.com/yuntsewu/EulerExpanCalc"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
