@@ -28,19 +28,10 @@ There are two ways to use this code:
 
 Example:  
     1. You would need to create "EulerTask" object and call "calculatesNum(path)" method.  
-        ```
         calc = EulerTask.new  
-        ```
-        ```
         print 'Enter File name: '  
-        ```
-        ```
         fname = STDIN.gets.chomp()  
-        ```
-        ```
         puts calc.calculatesNum(fname)  
-        ```
-          
     2. clone the project and execute "$ bin/console"  
 ## Development
 
