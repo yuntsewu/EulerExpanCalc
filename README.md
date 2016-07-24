@@ -30,19 +30,18 @@ Example:
     1. You would need to create "EulerTask" object and call "calculatesNum(path)" method.  
         ```
         calc = EulerTask.new  
-        ```  
+        ```
         ```
         print 'Enter File name: '  
-        ```  
+        ```
         ```
         fname = STDIN.gets.chomp()  
-        ```  
+        ```
         ```
         puts calc.calculatesNum(fname)  
-        ```  
-      
+        ```
+          
     2. clone the project and execute "$ bin/console"  
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
