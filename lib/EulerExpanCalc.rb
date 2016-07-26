@@ -24,7 +24,7 @@ module EulerExpanCalc
   #grabs next prime number until it's the nth prime number
   def calcNumber(nthPrime, chopLength)
     found = false #true when found nthPrime in eulers number expansion with length of chopLength
-    pointer = 0
+    pointer = 1 #starts at 1, so it skips the first number ('2'.718...)
     scope = chopLength
     chopEnd = chopLength
     listOfPrimes = Array.new
@@ -48,7 +48,7 @@ module EulerExpanCalc
         found = is_prime?(scope.to_i) && listOfPrimes.length == nthPrime
       end
     end
-    puts listOfPrimes.to_s
+    #puts listOfPrimes.to_s
     return listOfPrimes.last
   end
 end
