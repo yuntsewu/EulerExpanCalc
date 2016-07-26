@@ -34,7 +34,7 @@ module EulerExpanCalc
       #builds the string to be analyzed
       scope = (BigMath::E(pointer+chopLength+1) * (10 ** (pointer+chopLength))).to_i.to_s
       #puts "we should have eulers number: " + scope #debug
-      scope = scope[pointer+1,chopLength]
+      scope = scope[pointer,chopLength]
       #puts "we should have the just the length to analyze: " + scope
       #few conditions
       #need to skip if digits contains 0 in the begining to the next set
@@ -48,7 +48,7 @@ module EulerExpanCalc
         found = is_prime?(scope.to_i) && listOfPrimes.length == nthPrime
       end
     end
-    #puts listOfPrimes.to_s
+    puts listOfPrimes.to_s
     return listOfPrimes.last
   end
 end
